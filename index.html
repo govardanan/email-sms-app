@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Composer App</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1,width=device-width" />
+
+<meta charset="utf-8"/>
+
+
+<link rel="stylesheet" href="css/one.css" />
+<!--javascript source for jquery and jquery-mobile-->
+<script src="js/one.js"></script>
+<script src="js/two.js"></script>
+<script src="js/mail.js"></script>
+
+<script src="cordova.js"></script>
+
+</head>
+
+<body>
+ <!--  home page  -->
+<div data-role="page" id="home">
+<div data-role="header" id="head" data-theme="b" data-position="fixed" data-tap-toggle="false">
+<h2 style="position:relative">Email & Sms</h2>
+<a href="" class="ui-btn ui-icon-mail ui-btn-icon-left" data-role="button" onclick="email()">E-mail</a>
+<a href="#smss" class="ui-btn ui-icon-comment ui-btn-icon-left" data-role="button">Sms</a>  
+
+</div>
+
+<div data-role="content" data-theme="a">
+
+
+
+
+
+
+</div>
+
+<div data-role="footer" id="footer" data-position="fixed" data-theme="b" data-tap-toggle="false">
+<h1>&copy;CopyRights Reserved</h1>
+
+</div>
+
+</div>
+
+
+<!--sms page-->
+<div data-role="page" id="smss">
+<div data-role="header" id="head" data-theme="b" data-position="fixed" data-tap-toggle="false">
+<h2 style="position:relative">Sms</h2>
+<a href="" class="ui-btn ui-icon-back ui-btn-icon-left" data-role="button" data-rel="back">Back</a>
+
+
+</div>
+
+<div data-role="content" data-theme="a">
+
+Enter Number:<input type="text" id="num">
+Enter Message:<input type="text" id="msg">
+<button onclick="sms()">Send</button>
+
+
+
+
+</div>
+
+<div data-role="footer" id="footer" data-position="fixed" data-theme="b" data-tap-toggle="false">
+<h1>&copy;CopyRights Reserved</h1>
+
+</div>
+
+</div>
+
+
+</body>
+</html>
+
